@@ -20,3 +20,6 @@ const addTweet = (username,tweet) => {
     tweetsContainer.append(newTweet);
     
 }
+tweetsContainer.addEventListener('click',function(e){
+    e.target.remove();
+})
